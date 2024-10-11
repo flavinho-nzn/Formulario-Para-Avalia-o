@@ -1,0 +1,121 @@
+body {
+    background-image: url(../imagem/bg-repeat.jpg);
+    background-size: contain;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.informacoes {
+    margin-right: 60px;
+    color: #FFFFFF;
+}
+
+.informacoes .titulo{
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 11px;
+}
+
+.informacoes .texto {
+    font-size: 15px;
+    font-weight: 400;
+    width: 300px;
+}
+
+.conteudo {
+    background-color: #FFFFFF;
+    width: 340px;
+    height: 378px;
+}
+
+.conteudo .formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo .formulario .campo {
+    width: 298px;
+    height: 35px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: solid 1px #000000;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.conteudo .formulario .campo::placeholder {
+    font-size: 15px;
+    font-weight: 700;
+    color: #A8A8A8;
+}
+
+.conteudo .formulario .importante {
+    text-align: left;
+    width: 298px;
+}
+
+.conteudo .formulario .importante p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.preencher {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-end; 
+    height: 45px;
+    margin-top: 5px;
+}
+
+.preencher:nth-child(1) {
+    margin-top: 20px;
+}
+
+.preencher:nth-child(4) {
+    height: 110px;
+}
+
+#mensagem {
+    height: 100px;
+    max-width: 298px;
+    resize:none;
+}
+
+.conteudo .formulario .obrigatorio {
+    font-size: 8px;
+    font-weight: 400;
+    width: 298px;
+    position: absolute;
+    color: #F52E2E;
+}
+
+.enviar {
+    margin-top: 20px;
+    background-color: #3CCC87;
+    font-size: 15px;
+    font-weight: 700;
+    border: 0px;
+    border-radius: 5px;
+    width: 298px;
+    height: 41px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background-color: #00C22B;
+}
+
+.enviar:active {
+    background-color: #3CCC87;
+}
+
+.esconder {
+    display: none;
+}

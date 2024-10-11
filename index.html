@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario para avaliar</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+</head>
+<body>
+    <section class="informacoes">
+        <h1 class="titulo">
+            FICOU COM DÚVIDA?<br>NOS MANDE UMA MENSAGEM!
+        </h1>
+
+        <p class="texto">
+            caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.
+        </p>
+    </section>
+
+    <section class="conteudo">
+        <form action="#" method="get" class="formulario">
+            <div class="preencher">
+                <input type="text" placeholder="Nome Completo *" class="campo nome">
+                <label class="obrigatorio nome esconder">campo obrigatório</label>
+            </div>
+
+            <div class="preencher">
+                <input type="text" placeholder="Email *" class=" campo email">
+                <label class="obrigatorio email esconder">campo obrigatório</label>
+            </div>
+
+            <div class="preencher">
+                <input type="text" placeholder="Telefone *" class="campo telefone">
+                <label class="obrigatorio telefone esconder">campo obrigatório</label>
+            </div>
+
+            <div class="preencher"> 
+                <textarea placeholder="Mensagem *" id="mensagem" class="campo mensagem" ></textarea>
+                <label class="obrigatorio mensagem esconder">campo obrigatório</label>
+            </div>
+
+            <div class="importante">
+                <p>*campos obrigatórios</p>
+            </div>
+            <input type="submit" class="enviar" value="Enviar">
+            
+        </form>
+    </section>
+    <script src="src/js/form.js"></script>
+</body>
+</html>
